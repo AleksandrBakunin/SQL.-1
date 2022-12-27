@@ -35,10 +35,8 @@ select * from rental order by rental_id desc limit 5;
 select  customer_id, store_id, lower(first_name), lower(last_name), email, address_id, active, create_date, last_update from customer where first_name like 'KELLY' or first_name like 'WILLIE';
 
 
-![alt text](https://github.com/AleksandrBakunin/SQL.-1/blob/main/img/SQL1 - 4-2.JPG)
+![alt text](https://github.com/AleksandrBakunin/SQL.-1/blob/main/img/SQL1%20-%204-2.JPG)
 
 select  customer_id, store_id, replace(first_name, 'L', 'P'), last_name, email, address_id, active, create_date, last_update from customer where first_name like 'KELLY' or first_name like 'WILLIE';
 
-![alt text](https://github.com/AleksandrBakunin/SQL.-1/blob/main/img/SQL1%20-%204-2.JPG)
 
-===
